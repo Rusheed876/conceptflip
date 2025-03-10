@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "build": "parcel build src/index.html" 
+  },
   "dependencies": {
     "turn-js": "^0.7.0"
   }
