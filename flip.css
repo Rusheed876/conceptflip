@@ -1,0 +1,31 @@
+.hard
+{
+    background-color: rgb(40, 41, 49);
+    display: flex;
+    align-items: center;
+}
+
+.hard img
+{
+    object-fit: contain;
+    width: 100%;
+}
+
+.special
+{
+    font-family: "Palanquin Dark", Sans-serif;
+}
+.img-special img
+{
+    object-fit:contain;
+}
+.img-special
+{
+    background-color:  rgb(40, 41, 49);
+}
+
+#flipbook{
+    position: absolute;
+    top: 50%;
+    transform: translateY(50%);
+}
