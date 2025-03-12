@@ -1,3 +1,22 @@
+body
+{
+    width: 100vw;
+    height: 100vh;
+    padding: 100px 30px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.flip-holder
+{
+    width: 100%;
+    height: 70%;
+
+    
+}
 .hard
 {
     background-color: rgb(40, 41, 49);
@@ -24,9 +43,42 @@
     background-color:  rgb(40, 41, 49);
 }
 
-#flipbook{
-    position: absolute;
-    top: 50%;
-    transform: translateY(50%);
+h2
+{
+    font-size: 2em;
+    color: orange;
+
+}
+
+@media (max-width: 1024px) {
+    h2 {
+        font-size: 1.8em; /* Slightly smaller font size for tablets */
+    }
+
+    p {
+        font-size: 1.2em; /* Slightly smaller font size for paragraphs */
+    }
+}
+
+/* Small screens (mobile devices) */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 1.5em; /* Even smaller font size for smaller screens */
+    }
+
+    p {
+        font-size: .9em; /* Smaller font size for paragraphs */
+    }
+}
+
+/* Very small screens (small mobile devices, e.g., phones in portrait) */
+@media (max-width: 480px) {
+    h2 {
+        font-size: 1em; /* Further reduce font size for very small screens */
+    }
+
+    p {
+        font-size: .7em; /* Further reduce font size for very small screens */
+    }
 }
 
