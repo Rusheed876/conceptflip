@@ -1,3 +1,5 @@
+
+
 body
 {
     width: 100vw;
@@ -8,13 +10,14 @@ body
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    margin: 0;
 }
 
 .flip-holder
 {
     width: 100%;
-    height: 70%;
-
+    height: 700px;
+    overflow: hidden;
     
 }
 .hard
@@ -58,6 +61,10 @@ h2
     p {
         font-size: 1.2em; /* Slightly smaller font size for paragraphs */
     }
+    .flip-holder
+{
+    height: 650px;
+}
 }
 
 /* Small screens (mobile devices) */
@@ -69,6 +76,11 @@ h2
     p {
         font-size: .9em; /* Smaller font size for paragraphs */
     }
+
+    .flip-holder
+    {
+        height: 450px;
+    }
 }
 
 /* Very small screens (small mobile devices, e.g., phones in portrait) */
@@ -79,6 +91,10 @@ h2
 
     p {
         font-size: .7em; /* Further reduce font size for very small screens */
+    }
+    .flip-holder
+    {
+        height: 300px;
     }
 }
 
